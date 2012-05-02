@@ -3,9 +3,9 @@
 Plugin Name: JQuery Accessible Menu
 Plugin URI: http://wordpress.org/extend/plugins/jquery-accessible-menu/
 Description: WAI-ARIA Enabled Menu Plugin for Wordpress
-Author: Theofanis Oikonomou
-Version: 2.0
-Author URI: http://www.iti.gr/iti/people/ThOikon.html
+Author: Kontotasiou Dionysia
+Version: 3.0
+Author URI: http://www.iti.gr/iti/people/Dionisia_Kontotasiou.html
 */
 include_once 'getRecentPosts.php';
 include_once 'getRecentComments.php';
@@ -23,8 +23,8 @@ function JQueryAccessibleMenu_init() {
         wp_deregister_script('jquery');
 
         // add your own script
-        wp_register_script('jquery-1.4.2', ( get_bloginfo('wpurl') . '/wp-content/plugins/jquery-accessible-menu/lib/jquery-ui/jquery-1.4.2.js'));
-        wp_enqueue_script('jquery-1.4.2');
+        wp_register_script('jquery-1.6.4', ( get_bloginfo('wpurl') . '/wp-content/plugins/jquery-accessible-menu/lib/jquery-ui/jquery-1.6.4.js'));
+        wp_enqueue_script('jquery-1.6.4');
 
         wp_register_script('jquery.ui.core.js', ( get_bloginfo('wpurl') . '/wp-content/plugins/jquery-accessible-menu/lib/jquery-ui/ui/jquery.ui.core.js'));
         wp_enqueue_script('jquery.ui.core.js');
@@ -44,8 +44,8 @@ function JQueryAccessibleMenu_init() {
         wp_register_style('demos', ( get_bloginfo('wpurl') . '/wp-content/plugins/jquery-accessible-menu/lib/jquery-ui/demos.css'));
         wp_enqueue_style('demos');
 
-        wp_register_script('JQueryAccessibleMenu', ( get_bloginfo('wpurl') . '/wp-content/plugins/jquery-accessible-menu/lib/JQueryAccessibleMenu.js'));
-        wp_enqueue_script('JQueryAccessibleMenu');
+        wp_register_script('jquery-accessible-menu', ( get_bloginfo('wpurl') . '/wp-content/plugins/jquery-accessible-menu/lib/jquery-accessible-menu.js'));
+        wp_enqueue_script('jquery-accessible-menu');
     }
 }
 

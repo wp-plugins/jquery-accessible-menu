@@ -1,17 +1,17 @@
 === JQuery Accessible Menu ===
-Contributors: Theofanis Oikonomou
+Contributors: Kontotasiou Dionysia
 Tags: accessible, WAI, ARIA, jquery, widgets
-Requires at least: 3.0.1
-Tested up to: 3.2.1
-Stable tag: 2.0
+Requires at least: 3.3.2
+Tested up to: 3.3.2
+Stable tag: 3.0
 
 JQuery Accessible Menu is a WAI-ARIA Enabled Menu Plugin for Wordpress
 
 == Description ==
 
-JQuery Accessible Menu is an menubar of your blog's recent posts, recent comments, categories and meta
+JQuery Accessible Menu is a menubar of your blog’s recent posts, recent comments, categories and meta
 and uses the JQuery WAI-ARIA enabled menubar. Use it in a wide widget area, like the
-"First Footer Widget Area" of the "Twenty Ten" theme.
+"First Footer Widget Area".
 
 == Installation ==
 
@@ -44,3 +44,5 @@ This work was supported by the [Informatics and Telematics Institute](http://www
 * initial release
 = 2.0 =
 * Version 2.0
+= 3.0 =
+* Version 3.0
